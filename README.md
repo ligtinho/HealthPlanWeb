@@ -1,6 +1,6 @@
-# HealthPlan API
+# HealthPlan Web
 
-A HealthPlan API é uma aplicação RESTful desenvolvida com Spring Boot para gerenciar planos de saúde. Esta API oferece recursos para realizar operações CRUD (Create, Read, Update, Delete) em planos de saúde, beneficiários e outras funcionalidades relacionadas.
+A HealthPlan Web é uma aplicação REST desenvolvida com Spring Boot para gerenciar planos de saúde. Esta API oferece recursos para realizar operações CRUD (Create, Read, Update, Delete) em planos de saúde, beneficiários e outras funcionalidades relacionadas.
 
 ## Características Principais
 - Cadastrar um beneficiário junto com seus documentos;
@@ -15,6 +15,11 @@ A HealthPlan API é uma aplicação RESTful desenvolvida com Spring Boot para ge
 - H2 Database
 - Maven
 - Swagger
+  
+Front-end
+- Thymeleaf
+- JavaScript
+- jQuery
 
 ## Configuração do Ambiente de Desenvolvimento
 1. Baixe o repositório.
@@ -30,12 +35,16 @@ Console do banco de dados H2: localhost:8080/h2-console/
 Login: admin
 Senha: admin
 
-## Utilização do Postman
-Para facilitar a manipulação e teste da API, recomenda-se o uso do [Postman](https://www.postman.com/).
+## Link principal
+localhost:8080
+Login: admin
+Senha: admin
+
+O banco de dados começa vazio, então primeiramente cadastrar um novo beneficiário.
 
 ## Executando o Build e Iniciando a Aplicação
 Certifique-se de ter o Maven instalado.
 
 ```bash
 mvn clean install
-java -jar target/healthplan-api.jar
+java -jar target/HealthPlan-1.0.jar
