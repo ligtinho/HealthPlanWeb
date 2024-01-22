@@ -44,6 +44,7 @@ O banco de dados começa vazio, então primeiramente cadastrar um novo benefici�
 
 ## Executando o Build e Iniciando a Aplicação
 Certifique-se de ter o Maven instalado.
+Certifique-se de ter o Java 8 instalado.
 
 ```bash
 mvn clean install
